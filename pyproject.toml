@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bertopic"
-version = "0.16.2"
+version = "0.16.3"
 description = "BERTopic performs topic Modeling with state-of-the-art transformer models."
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -98,7 +98,7 @@ include = ["bertopic*"]
 exclude = ["tests"]
 
 [tool.ruff]
-target-version = "py38"
+line-length = 120
 
 [tool.ruff.lint]
 select = [  
